@@ -1,0 +1,17 @@
+{
+  "data_kind": "real",
+  "source": "User-uploaded brent_futures.csv; Bloomberg-style field names",
+  "price_field": "px_last(dates=#dt)",
+  "price_definition": "Vendor last/close field; not asserted to be official settlement",
+  "retrieval_timestamp": "Not provided in uploaded CSV",
+  "received_date": "2026-10-05",
+  "overrides": "Not provided",
+  "calendar_verified": false,
+  "expiry_source": "fut_last_trade_dt() from uploaded CSV; independent historical ICE cross-check outstanding",
+  "raw_sha256": "7125de871be8225b2b15806946f9a7c53dd7e477600419864895038be5af9c0f",
+  "rows_in_sample": 14263,
+  "contracts_in_sample": 157,
+  "price_observations": 9946,
+  "dates_with_prices": 106,
+  "calendar_days_without_prices": 46
+}

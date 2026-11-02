@@ -1,0 +1,23 @@
+{
+  "scales": [
+    0.03428478257364718,
+    0.048396953779529,
+    0.08422211648554072,
+    0.6637866829988114
+  ],
+  "training_loss_unit": 1.1445953410195358e-07,
+  "train_slices": 53,
+  "validation_end_slice": 79,
+  "test_slices": 27,
+  "preferred_model": "ridge",
+  "selection": "validation constraints then minimum mean scaled step",
+  "lasso": "smooth L1 increment approximation; epsilon=0.01",
+  "stability_definition": "5 consecutive successful fits with scaled step <= 0.25; diagnostic only",
+  "data_kind": "real",
+  "robustness_run": true,
+  "skipped_robustness": [],
+  "complete_slices": 106,
+  "holdout_rmse": 0.1976360485769097,
+  "calendar_verified": false,
+  "expiry_independently_verified": false
+}

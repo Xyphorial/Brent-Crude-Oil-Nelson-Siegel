@@ -1,0 +1,10 @@
+{
+  "start": "2026-01-01", "end": "2026-06-01", "seed": 42,
+  "k": 12, "expiry_buffer": 0, "anchor_day": 1,
+  "target": "log", "weighting": "equal", "design": "fixed_k",
+  "tenor_band": [1.0, 18.0], "train_fraction": 0.5,
+  "validation_fraction": 0.25, "burn_in": 20,
+  "multistarts": 4, "penalty_multipliers": [0, 0.01, 0.1, 1, 10],
+  "fit_tolerance": 0.1, "response_tolerance": 0.2,
+  "l1_epsilon": 0.01, "solver": "L-BFGS-B"
+}

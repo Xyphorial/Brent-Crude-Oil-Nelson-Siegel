@@ -1,0 +1,1 @@
+Complete uploaded-price study: 106 daily curves, seven models, seven robustness comparisons. Eight automated tests passed. Learning script executed. Main-model and robustness optimiser failure counts: zero. Vendor expiry metadata and official calendar remain independently unverified. No artificial prices are generated.
